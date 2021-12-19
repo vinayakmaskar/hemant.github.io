@@ -1,0 +1,139 @@
+
+
+.homepage{
+  background-image: url("https://livewallpaperhd.com/wp-content/uploads/2017/05/Black-Background-For-Photos.jpg");
+  background-repeat: no-repeat;
+   background-size: 100% 100%;
+  padding: 2% 6%;
+  padding-top: 0px;
+
+}
+.back{
+
+  border-radius: 10px;
+
+}
+
+.navbar-brand{
+  margin-left: 15px;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-brand:hover{
+  color: white;
+  font-style: italic;
+}
+.menu{
+  height: 66px;
+  width: 66px;
+}
+.nav-link{
+  padding: 20px;
+  color: silver;
+  margin:0px 40px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.mainlog{
+  background-color: none;
+  height: 500px;
+  width:500px;
+}
+
+.hemu{
+  list-style: none;
+  text-decoration: none;
+
+  font-family: 'Cabin', sans-serif;
+
+
+  letter-spacing: 2px;
+  color: white;
+  margin-bottom: 0px;
+
+
+}
+
+.hemu:hover{
+  color: #F5EEDC;
+
+
+}
+
+.det{
+
+  color: white;
+}
+
+
+h1{
+  font-family: 'Ubuntu Mono', monospace;
+  margin-bottom: 10px;
+    font-size: 54px;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    color: white;
+
+  text-shadow: 2px 2px silver;
+
+}
+
+.maintit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link:hover{
+  color: black;
+  font-weight: bolder;
+}
+li:hover{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.navbar-toggler{
+  background-color: grey;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 8px;
+
+}
+p{
+  text-align: center;
+  color: silver;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 991px)
+{
+  li{
+    text-align: center;
+  }
+
+  .navbar-brand{
+    text-align: center;
+  }
+
+  .hemu{
+    margin-left: 15px;
+  }
+}
+
+span{
+  display: block;
+  height: 1px;
+  width: 18px;
+  margin: 5px;
+  border:1px solid black;
+}
+
+.navbar-toggler:hover{
+  background-color: white;
+}
